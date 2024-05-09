@@ -1,6 +1,10 @@
-2)
 class ContaCorrente(var numerodaConta: int, var saldo double){
-    fun apresentar(){
-        println("numero da conta é $numerodaconta e o saldo é $saldo.")
+     fun depositar(valor: Double) {
+        saldo += valor
+    }
+    
+    fun sacar(valor: Double) {
+        saldo -= valor
+        
     }
 }
