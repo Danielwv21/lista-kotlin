@@ -1,9 +1,9 @@
 class ContaCorrente(var numerodaConta: int, var saldo double){
-     fun depositar(valor: Double) {
+     fun depositar(saldo: Double) {
         saldo += valor
     }
     
-    fun sacar(valor: Double) {
+    fun sacar(saldo: Double) {
         saldo -= valor
         
     }
